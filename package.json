@@ -1,0 +1,29 @@
+{
+  "name": "artdom-leaflet-updater",
+  "version": "0.0.1",
+  "description": "Crops and upload leaflet files to server",
+  "main": "index.js",
+  "scripts": {
+    "serve": "lite-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukaszczernal/artdom-leaflet-updater.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukaszczernal/artdom-leaflet-updater/issues"
+  },
+  "homepage": "https://github.com/lukaszczernal/artdom-leaflet-updater#readme",
+  "dependencies": {
+    "lite-server": "^2.2.2",
+    "systemjs": "^0.19.37"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^2.2.1",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.2"
+  }
+}
